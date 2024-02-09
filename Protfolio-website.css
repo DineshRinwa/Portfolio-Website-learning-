@@ -68,4 +68,242 @@ a:hover{
 }
 
 
+/* profile-section */
 
+#profile{
+  width: 64%;
+  margin: auto;
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.section__pic-container{
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__pic-container img{
+  width: 100%;
+}
+
+.section__text{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__text-p1{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.title{
+  font-size: 3rem;
+}
+
+.section__text-p2{
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.709);
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.btn{
+  border-radius: 40px;
+  padding: 15px 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn-color-1{
+  background-color: #fff;
+}
+
+.btn-color-1:hover{
+  background-color: #000;
+  color: #fff;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.btn-color-2{
+  background-color: #000000c9;
+  color: #fff;
+}
+
+.btn-color-2:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
+.socials-container{
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials-container img{
+  width: 8%;
+}
+
+.socials-container img:hover{
+  cursor: pointer;
+}
+
+
+/* About section */
+#about{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.section__text_p1, .title{
+  text-align: center;
+}
+
+.section-container{
+  width: 100%;
+  margin-block: 60px; 
+
+  display: flex;
+  gap: 60px;
+}
+
+.section_pic{
+  width: 37%;
+}
+
+.section_pic img{
+  width: 100%;
+  border-radius: 40px;
+}
+
+.about-details-container{
+  width: 63%;
+}
+
+.about-containers{
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.details-containers{
+  border: 2px solid;
+  text-align: center;
+  border-radius: 40px;
+  padding-block: 20px;
+}
+
+.details-containers>h3,p{
+  margin-bottom: 5px;
+}
+
+.details-containers img{
+  width: 10%;
+  /* margin-bottom: 10px; */
+}
+
+.text-container{
+  margin-top: 40px;
+  word-spacing: 5px;
+  line-height: 20px;
+}
+
+.arrow{
+  width: 3%;
+  position: absolute;
+  bottom: 1rem;
+  right: -4rem;
+}
+
+
+
+/* Exprience Section */
+#experience{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  padding-block: 50px;
+  border: 1px solid;
+}
+
+.skill-container{
+  margin-top: 50px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.frontend-skill-container{
+  border: 2px solid;
+  border-radius: 40px;
+}
+
+.frontend-skill-container>p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.frontend-skill{
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  row-gap: 30px;
+  column-gap: 50px;
+}
+
+.skill-div{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-image{
+  width: 14%;
+}
+
+.skill-image img{
+  width: 100%;
+}
+
+.skill-text{
+  width: 60%;
+}
+
+.skill-text>h3,p{
+  margin-bottom: 7px;
+}
+
+.arrow2{
+  width: 3%;
+  position: absolute;
+  bottom: -2rem;
+  right: -4rem;
+}
+
+.arrow,.arrow2:hover{
+  cursor: pointer;
+}
