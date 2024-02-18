@@ -1,6 +1,8 @@
 /* Genral */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 
 *{
   margin: 0%;
@@ -8,6 +10,8 @@
 }
 
 body{
+  width: 100%;
+  margin: auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,12 +25,21 @@ p{
 
 /* Trasitions */
 a, .btn{
-  transition: all 300ms ease;
+  transition: all 400ms ease;
   /* grid-template-rows: ; */
+}
+
+.name-dinesh{
+  font-family: "Protest Revolution", sans-serif;
 }
 
 
 /* Desktop Nav */
+#desktop-nav{
+  width: 90%;
+  margin: auto;
+}
+
 nav, .nav-links{
   display: flex;
 }
@@ -38,7 +51,9 @@ nav{
 }
 
 .logo{
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 600;
 }
 
 .logo:hover{
@@ -206,7 +221,7 @@ a:hover{
 }
 
 .details-containers{
-  border: 2px solid;
+  border: 2px solid rgba(0, 0, 0, 0.442);
   text-align: center;
   border-radius: 40px;
   padding-block: 20px;
@@ -243,7 +258,6 @@ a:hover{
   margin: auto;
   margin-top: 60px;
   padding-block: 50px;
-  border: 1px solid;
 }
 
 .skill-container{
@@ -254,7 +268,7 @@ a:hover{
 }
 
 .frontend-skill-container{
-  border: 2px solid;
+  border: 2px solid rgba(0, 0, 0, 0.443);
   border-radius: 40px;
 }
 
@@ -297,13 +311,147 @@ a:hover{
   margin-bottom: 7px;
 }
 
-.arrow2{
+.arrow2, .arrow3{
   width: 3%;
   position: absolute;
   bottom: -2rem;
   right: -4rem;
 }
 
-.arrow,.arrow2:hover{
+.arrow,.arrow2, .arrow3:hover{
   cursor: pointer;
 }
+
+
+/* Projects Section */
+#projects{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-block: 90px;
+}
+
+.project-container-section{
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding:20px 30px;
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.457);
+  background-color: hsla(0, 0%, 0%, 0.024);
+}
+
+.project-container>h2{
+  font-size: 1.9rem;
+}
+
+.project-image{
+  width: 100%;
+}
+
+.project-image img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.button-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-one{
+  padding: 15px 40px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: hsla(0, 0%, 0%, 0.024);
+  letter-spacing: 1px;
+}
+
+.btn-one:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+/* Contact Section */
+#contact{
+  width: 90%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.contact-section{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.contact-info-container{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.contact-image{
+  width: 20%;
+}
+
+.a{
+  width: 80%;
+}
+
+.contact-icon{
+  height: 2.5rem;
+}
+
+.email-icon{
+  height: 3rem;
+  padding: 0px;
+}
+
+
+
+/* Footer Section */
+
+#footer{
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.footer-nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-web{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+
